@@ -2,6 +2,10 @@
 
 This project is a single-page React application that loads and visualizes 3D NIfTI images using the NIfTI-Reader-JS library.
 
+## Check it out Live
+
+https://rednet09.github.io/3dslider/
+
 ## Features
 
 - Upload a NIfTI file from your local machine.
@@ -20,8 +24,8 @@ This project is a single-page React application that loads and visualizes 3D NIf
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/nifti-viewer.git
-   cd nifti-viewer
+   git clone https://github.com/your-username/3dslider
+   cd 3dslider
    ```
 
 2. Install the necessary packages:
@@ -69,10 +73,10 @@ This project is a single-page React application that loads and visualizes 3D NIf
 1. Start the development server:
 
    ```sh
-   npm start
+   npm run dev
    ```
 
-2. Open your web browser and go to `http://localhost:3000`.
+2. Open your web browser and go to `http://localhost:5173`.
 
 ## Usage
 
@@ -82,14 +86,14 @@ This project is a single-page React application that loads and visualizes 3D NIf
 
 ## File Structure
 
-src/
-components/
-FileUpload.js # Component for handling file uploads
-ImageSlider.js # Component for the slider navigation
-ImageViewer.js # Component for displaying the NIfTI image slices
-App.js # Main component that manages state and handles file uploads
-index.js # Entry point of the React application
-index.css # Tailwind CSS configuration
+1. src/
+2. components/
+3. FileUpload.js # Component for handling file uploads
+4. ImageSlider.js # Component for the slider navigation
+5. ImageViewer.js # Component for displaying the NIfTI image slices
+6. App.js # Main component that manages state and handles file uploads
+7. index.js # Entry point of the React application
+8. index.css # Tailwind CSS configuration
 
 ## Libraries Used
 
